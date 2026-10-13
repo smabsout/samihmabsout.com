@@ -13,10 +13,10 @@ export const experience: ExperienceItem[] = [
     role: "Business Continuity & Crisis Management Lead",
     company: "Allstate",
     summary:
-      "Leading enterprise business continuity and crisis management initiatives across all business units for one of North America's largest insurance carriers, with programs aligned to ISO 22301, NIST 800-53, and FFIEC.",
+      "Leading enterprise business continuity and crisis management initiatives across all business units for one of North America's largest insurance carriers, with programs aligned to ISO 22301.",
     bullets: [
       "Leading enterprise continuity and crisis management across all business units",
-      "Developing enterprise-wide BCP frameworks aligned to ISO 22301, NIST 800-53, and FFIEC",
+      "Developing enterprise-wide BCP frameworks aligned to ISO 22301",
       "Leading crisis response coordination and enterprise tabletop exercises",
       "Architected the MVC Playbook for the CARR effort at Allstate Roadside Services",
       "Driving AI-solutioning initiatives to automate BIA and BCP workflows",
