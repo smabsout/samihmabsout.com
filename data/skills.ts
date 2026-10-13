@@ -7,6 +7,8 @@ import {
   BarChart3,
   Target,
   Cpu,
+  CodeXml,
+  Infinity as InfinityIcon,
 } from "lucide-react";
 
 export interface Skill {
@@ -57,5 +59,17 @@ export const skills: Skill[] = [
     description:
       "Designing and implementing AI agents that automate continuity and resilience workflows, improving efficiency and freeing teams to focus on what matters.",
     icon: Cpu,
+  },
+  {
+    title: "Software Engineering",
+    description:
+      "Building and shipping full-stack software, from internal automation tools to complete products, on a software engineering foundation.",
+    icon: CodeXml,
+  },
+  {
+    title: "AIDLC",
+    description:
+      "Applying AI development lifecycle practices — from prototyping to deployment — to ship reliable, production-ready AI-powered features.",
+    icon: InfinityIcon,
   },
 ];
