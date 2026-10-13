@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
-import { Menu, X, Github, Linkedin, Mail } from "lucide-react";
+import { Menu, X, Linkedin, Mail } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 import { site } from "@/data/site";
 
@@ -74,15 +74,6 @@ export default function Header() {
         <div className="flex items-center gap-1 sm:gap-2">
           <ThemeToggle />
           <a
-            href={site.github}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="GitHub"
-            className={iconLinkClass}
-          >
-            <Github className="h-5 w-5" />
-          </a>
-          <a
             href={site.linkedin || "#"}
             target="_blank"
             rel="noopener noreferrer"
@@ -132,15 +123,6 @@ export default function Header() {
                 </a>
               ))}
               <div className="mt-2 flex items-center gap-4 border-t border-slate-200/50 px-3 pt-3 dark:border-slate-800/50">
-                <a
-                  href={site.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="GitHub"
-                  className="text-slate-600 hover:text-sky-600 dark:text-slate-300 dark:hover:text-sky-400"
-                >
-                  <Github className="h-5 w-5" />
-                </a>
                 <a
                   href={site.linkedin || "#"}
                   target="_blank"
