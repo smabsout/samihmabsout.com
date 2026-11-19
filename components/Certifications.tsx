@@ -22,7 +22,7 @@ export default function Certifications() {
           </p>
         </AnimatedSection>
 
-        <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2">
+        <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {certifications.map((cert, index) => (
             <CertCard key={cert.code} cert={cert} index={index} />
           ))}

@@ -6,6 +6,12 @@ export interface Certification {
 
 export const certifications: Certification[] = [
   {
+    code: "CBCP",
+    name: "Certified Business Continuity Professional (In Progress)",
+    description:
+      "DRI International's core business continuity credential, covering program management, business impact analysis, continuity strategy, and exercising.",
+  },
+  {
     code: "CCRP",
     name: "Certified Cyber Resilience Professional",
     description:
