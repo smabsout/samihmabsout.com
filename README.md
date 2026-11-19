@@ -2,6 +2,20 @@
 
 Personal portfolio site for Samih Mabsout — Business Continuity & Cyber Resilience.
 
+## Screenshots
+
+Captured November 2026 (dark theme, 1280px wide).
+
+| Hero | Certifications |
+| --- | --- |
+| ![Hero](docs/screenshots/hero.png) | ![Certifications](docs/screenshots/certifications.png) |
+
+**Experience**
+
+| Allstate | U.S. Financial Technology | FDM Group |
+| --- | --- | --- |
+| ![Allstate](docs/screenshots/experience-allstate.png) | ![U.S. Financial Technology](docs/screenshots/experience-usft.png) | ![FDM Group](docs/screenshots/experience-fdm.png) |
+
 ## Stack
 
 - [Next.js](https://nextjs.org) (App Router) + TypeScript
