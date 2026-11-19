@@ -13,15 +13,16 @@ export const experience: ExperienceItem[] = [
     role: "Business Continuity & Crisis Management Lead",
     company: "Allstate",
     summary:
-      "Leading enterprise business continuity and crisis management initiatives across all business units for one of North America's largest insurance carriers, with programs aligned to ISO 22301.",
+      "Owning business continuity for the majority of Allstate's Market Facing Business areas at one of North America's largest insurance carriers, managing the full BC lifecycle with programs aligned to ISO 22301.",
     bullets: [
-      "Leading enterprise continuity and crisis management across all business units",
-      "Developing enterprise-wide BCP frameworks aligned to ISO 22301",
-      "Leading crisis response coordination and enterprise tabletop exercises",
+      "Own business continuity for the majority of Market Facing Business areas: BIAs, BCP updates, and RCSAs",
+      "Expanded team scope in 2026 when the Chief Risk Officer moved the Risk Partners function under the Business Continuity team",
+      "Designed and built AI agents in Microsoft Copilot Studio, including ARIA (BIA workbook auditing), the BPI Workbook Automator, a BCP gap assessment agent, and a tabletop scenario recommender",
+      "Design and lead enterprise tabletop exercises and dependency risk scenarios",
+      "Represent Business Continuity on the orange team in enterprise exercises, simulating disruptions to stress-test response plans",
       "Architected the MVC Playbook for the CARR effort at Allstate Roadside Services",
-      "Driving AI-solutioning initiatives to automate BIA and BCP workflows",
     ],
-    tags: ["BCP", "Crisis Management", "ISO 22301", "AI Automation"],
+    tags: ["BCP", "Crisis Management", "ISO 22301", "AI Automation", "Orange Team"],
   },
   {
     date: "July 2022 – April 2025",

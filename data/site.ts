@@ -1,7 +1,7 @@
 export const site = {
   name: "Samih Mabsout",
   title: "Business Continuity & Cyber Resilience Expert",
-  location: "Boston, MA",
+  location: "Houston, TX",
   email: "smabsout@gmail.com",
   url: "https://www.samihmabsout.com",
   // TODO: add your real GitHub/LinkedIn handles if these differ.
